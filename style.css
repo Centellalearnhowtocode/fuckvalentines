@@ -1,0 +1,73 @@
+body{
+  display :flex;
+  justify-content:center;
+  flex-direction:column-reverse;
+  align-items:center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  
+}
+.font{
+  padding-bottom: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: plum;
+}
+@keyframes .font{
+  0%{
+    transform: rotate(-45deg) scale(1.06);
+  }
+  80%{
+    transform:  rotate(-45deg) scale(1);
+  }
+  100{
+    transform: rotate(-45deg) scale (1.2);
+  }
+}
+.heart {
+  
+  margin-top: 10px;
+  width: 69px;
+  height: 69px;
+  background: palevioletred;
+  box-shadow:  -10px 10px 90px red;
+  transform: rotate(-45deg);
+  animation:  heart 0.6s linear infinite;
+
+}
+
+@keyframes heart {
+  0%{
+    transform: rotate(-45deg) scale(1.06);
+  }
+  80%{
+    transform:  rotate(-45deg) scale(1);
+  }
+  100{
+    transform: rotate(-45deg) scale (1.2);
+  }
+
+}
+
+.heart::before {
+  width: 69px;
+  height: 69px;
+  content:"";
+  position: absolute;
+  top: -50%;
+  background:palevioletred;
+  border-radius: 50%;
+  box-shadow: 10px 10px 90px palevioletred;
+}
+
+.heart::after{
+  width: 69px;
+  height: 69px;
+  content:"";
+  counter-reset: none;
+  position: absolute;
+  right: -50%;
+  background:  palevioletred;
+  border-radius: 50%;
+
+}
