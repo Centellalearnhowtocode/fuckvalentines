@@ -9,10 +9,9 @@ body{
   
 }
 .font{
- margin-bottom: 20px;
+  padding-bottom: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: plum;
-  
 }
 @keyframes .font{
   0%{
@@ -26,6 +25,7 @@ body{
   }
 }
 .heart {
+  
   margin-top: 10px;
   width: 69px;
   height: 69px;
@@ -70,6 +70,4 @@ body{
   background:  palevioletred;
   border-radius: 50%;
 
-
 }
-
