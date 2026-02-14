@@ -24,7 +24,7 @@ body{
   }
 }
 .heart {
-  margin-top: 5%;
+  margin-top: 10vh;
   width: 69px;
   height: 69px;
   background: palevioletred;
@@ -67,5 +67,6 @@ body{
   right: -50%;
   background:  palevioletred;
   border-radius: 50%;
+
 
 }
